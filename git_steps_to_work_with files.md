@@ -25,7 +25,10 @@ git add .
 ```
 git commit -m "ci: add github actions workflow and connect remote"
 ```
-### 
+### Push smoothly to GitHub
+```
+git push -u origin main
+```
 
 
 
