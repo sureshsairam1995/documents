@@ -25,6 +25,10 @@ git add .
 ```
 git commit -m "ci: add github actions workflow and connect remote"
 ```
+### If GitHub rejects it because the remote has files you don't have locally, run below command first, then push again
+```
+git pull origin main --allow-unrelated-histories
+```
 ### Push smoothly to GitHub
 ```
 git push -u origin main
