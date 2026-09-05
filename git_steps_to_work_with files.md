@@ -2,6 +2,10 @@
 ```
 cd ~/git_demmo
 ```
+> [!NOTE]
+>  All the commands and steps should be executed inside the project directory of system.
+<img width="642" height="241" alt="image" src="https://github.com/user-attachments/assets/16cd2cf9-8160-4b39-94a5-7967b5a85331" />
+
 ### Initialize Git
 ```
 git init
