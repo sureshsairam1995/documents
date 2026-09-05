@@ -1,5 +1,10 @@
+## Install Git on Your System
+```
+sudo apt update
+sudo apt install git -y
 
-## Step 1: Check for existing SSH keys
+```
+## Check for existing SSH keys
 ```
 ls -al ~/.ssh
 ```
@@ -18,11 +23,7 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 ## Step 4: Add the SSH key to your GitHub Account
-Open your browser and go to your GitHub SSH Keys Settings.
-Click the green New SSH Key button in the top right.
-In the Title field, type a name for your computer (e.g., "My Work Laptop").
-In the Key box, paste the text you copied in Step 3.
-Click Add SSH Key. (GitHub may ask you to confirm your account password).
+Go to your GitHub account settings -> SSH and GPG keys -> New SSH Key, and paste your copied text
 
 ## Step 5: Update your local Git Repository to use SSH
 Go back to your terminal, make sure you are inside your project folder (demo-repo), and swap the remote URL from HTTPS to SSH:
